@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Etablissements</string>
+    <string name="bonjour_tout_le_monde">Bonjour tout le monde!</string>
+    <string name="login">Login</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_connecter">Se Connecter</string>
+    <string name="nouveau_compte">Nouveau Compte?</string>
+    <string name="cr_eer_compte">Créeer Compte</string>
+    <string name="cr_ation_d_un_nouveau_compte">Création d\'un nouveau compte</string>
+</resources>

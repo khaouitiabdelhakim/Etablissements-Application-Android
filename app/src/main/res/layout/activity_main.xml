@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bonjour_tout_le_monde"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login"/>
+
+            <EditText
+                android:id="@+id/login"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/login"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/mot_de_passe"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/mot_de_passe"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/se_connecter"/>
+
+        <TextView
+            android:id="@+id/newAccount"
+            android:textColor="@color/couleurs"
+            android:clickable="true"
+            android:selectAllOnFocus="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nouveau_compte"
+            android:focusable="true" />
+
+        <ToggleButton
+            android:checked="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

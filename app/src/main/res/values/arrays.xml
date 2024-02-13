@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="establishment_types">
+        <item>All</item>
+        <item>Public</item>
+        <item>Private</item>
+    </string-array>
+    <string-array name="establishment_types_values">
+        <item>all</item>
+        <item>public</item>
+        <item>private</item>
+    </string-array>
+</resources>

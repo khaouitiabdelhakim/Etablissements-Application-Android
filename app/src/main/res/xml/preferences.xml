@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Paramètres généraux">
+
+        <ListPreference
+            android:key="establishment_preference"
+            android:title="Type d'établissement"
+            android:summary="Choisissez entre les établissements publics et privés"
+            android:entries="@array/establishment_types"
+            android:entryValues="@array/establishment_types_values"
+            android:defaultValue="all" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
