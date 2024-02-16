@@ -1,13 +1,13 @@
 # Etablissements - Application Android
 
-```plaintext
-
-If you find this repository useful or it has helped you
+If you find this repository useful or it has helped you,
 please don't forget to leave a ⭐️, or even follow my GitHub account.
 Your support motivates me to continue providing helpful resources.
 Thank you for your appreciation! 🌟🚀💖😊👍
 
-```
+If you'd like to support further, consider buying me a coffee:
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee--yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/kh.abdelhakim)
+
 
 ## Auteur
 ABDELHAKIM KHAOUITI
