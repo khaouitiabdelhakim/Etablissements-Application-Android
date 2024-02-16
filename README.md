@@ -45,6 +45,12 @@ Les contributions à ce projet sont les bienvenues. Pour contribuer, veuillez su
 - XML
 - Room Database
 
+## Contribution
+
+```
+Fork this repository if you wish to make changes or contribute improvements.
+```
+
 ## License
 
 ```
@@ -62,4 +68,4 @@ See the License for the specific language governing permissions and
 limitations under the MIT License.
 ```
 
-```Fork this repository if you wish to make changes or contribute improvements.```
+
